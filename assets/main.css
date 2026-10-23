@@ -15,6 +15,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
+    transition-delay: 0.2s;
 }
 
 .toggle-box {
@@ -25,6 +27,7 @@ body {
     border-radius: 1000px;
     cursor: pointer;
     position: relative;
+    transition: 0.5s;
 }
 
 input[type="checkbox"] {
